@@ -8,8 +8,8 @@ def fib(n):
 
 
 def main():
-    for i in range(int(input())):
-        print(fib(i))
+    for i in range(1, int(input())+1):
+        print(f"Число Фиб №{i}, ", fib(i))
 
 
 if __name__ == '__main__':
